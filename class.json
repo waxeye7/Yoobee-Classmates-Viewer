@@ -1,0 +1,87 @@
+[
+    {
+      "First_Name": "Liam",
+      "Last_Name": "Patman",
+      "absent": true
+    },
+    {
+      "First_Name": "Sam",
+      "Last_Name": "Woolf",
+      "absent": true
+    },
+    {
+      "First_Name": "Ke",
+      "Last_Name": "Guo",
+      "absent": true
+    },
+    {
+      "First_Name": "Shane",
+      "Last_Name": "Manawatu",
+      "absent": true
+    },
+    {
+      "First_Name": "Merlin",
+      "Last_Name": "Stemmer",
+      "absent": true
+    },
+    {
+      "First_Name": "Matt",
+      "Last_Name": "Bohan",
+      "absent": true
+    },
+    {
+      "First_Name": "Jeremy",
+      "Last_Name": "McDonald",
+      "absent": false
+    },
+    {
+      "First_Name": "Belen",
+      "Last_Name": "Ramirez",
+      "absent": true
+    },
+    {
+      "First_Name": "Callum",
+      "Last_Name": "Jones",
+      "absent": true
+    },
+    {
+      "First_Name": "Shaye",
+      "Last_Name": "Lock-Cullimore",
+      "absent": true
+    },
+    {
+      "First_Name": "KC",
+      "Last_Name": "Warde",
+      "absent": true
+    },
+    {
+      "First_Name": "Kelsie",
+      "Last_Name": "Baigent",
+      "absent": true
+    },
+    {
+      "First_Name": "Tin",
+      "Last_Name": "Baltazar",
+      "absent": true
+    },
+    {
+      "First_Name": "Caleb",
+      "Last_Name": "Rossiter",
+      "absent": true
+    },
+    {
+      "First_Name": "Kyla",
+      "Last_Name": "Higgins",
+      "absent": true
+    },
+    {
+      "First_Name": "Juliana",
+      "Last_Name": "Guimaraes",
+      "absent": true
+    },
+    {
+      "First_Name": "Katie",
+      "Last_Name": "Pragg",
+      "absent": true
+    }
+  ]

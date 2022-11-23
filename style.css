@@ -1,0 +1,69 @@
+body { margin:0; padding:0; font-family:sans-serif }
+.hide { height:0px !important; }
+
+
+.clean {
+    /* border:1px rgb(0, 0, 0) solid; */
+    border-radius:8px;
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+    background-color: rgb(208, 215, 255);
+    width:300px;
+    height:60px;
+    position:relative;
+    cursor: pointer;
+
+    /* position:absolute; */
+
+}
+
+/* .clean:hover {
+    height:360px;
+    transition: all 0.45s ease-in-out;
+} */
+
+
+.extra-info {
+    overflow:hidden;
+    transition: all 0.25s ease-in-out;
+    height:300px;
+    width:80vw;
+    background-color: rgb(77, 77, 203);
+    position:absolute;
+    z-index:30;
+    cursor: pointer;
+    left:0;
+    top:0;
+}
+
+.width { width:80%; }
+
+
+.initials {font-size:26px ; margin:0; padding:0; font-weight: 300; filter:drop-shadow(3px 3px 3px 4px rgba(0, 0, 0, 0.433));  color:white}
+
+.div-wrapper-h1 {
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 50%; margin:0 15px 0 0;
+    height:50px; width:50px;
+    display:flex; justify-content: center;
+    align-items: center; 
+    background-color: rgb(131, 183, 255);
+    position:absolute;
+    top:3px;
+    left:3px;
+}
+
+.h1-control { font-weight: 100; margin-left:auto; margin-top:16px; margin-right: 4px; font-size: 23px;}
+.flexwrap { display: flex; flex-wrap: wrap;  border:3px dotted; border-color:black blue blue blue; margin:0 100px}
+
+/*  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.4); */
+.align-center { text-align: center; }
+
+#parent-of-yoobee-students {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+    position:relative;
+}
