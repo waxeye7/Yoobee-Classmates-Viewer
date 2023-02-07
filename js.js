@@ -19,7 +19,6 @@ function MaterialiseStudent(student) {
 
     let InitialsDivWrapper = document.createElement('div');
 
-    let extra_info = document.createElement("div")
 
 
     Full_Name_H1.innerHTML = student.First_Name + " " + student.Last_Name;
@@ -28,7 +27,6 @@ function MaterialiseStudent(student) {
     Card_Div.classList.add('clean');
     Full_Name_H1.classList.add("h1-control");
     InitialsH1.classList.add('initials', 'div-wrapper-h1');
-    extra_info.classList.add("extra-info")
 
 
 
@@ -40,33 +38,12 @@ function MaterialiseStudent(student) {
     Card_Div.appendChild(InitialsDivWrapper);
     Card_Div.appendChild(Full_Name_H1);
 
+
+
     Child.appendChild(Card_Div);
 
-    Child.appendChild(extra_info);
-
-    extra_info.innerHTML = 'hi';
-
-
-
-    extra_info.classList.add("hide");
     Card_Div.onclick = function() {
-        extra_info.classList.toggle("hide");
-
-        let allCards = document.getElementsByClassName("extra-info");
-        for(let card of allCards) 
-        if(card.parentNode != this.parentNode)
-            card.classList.add("hide");
-
-    }
-    extra_info.onclick = function() {
         let nameURL = student.First_Name.toLowerCase() + "." + student.Last_Name.toLowerCase();
-        window.open("http://" + nameURL + ".yoobeestudent.net/")        
+        window.open("http://" + nameURL + ".yoobeestudent.net/")   
     }
-
-    // extra_info.notonclick = function() {
-    //     let allCards = document.getElementsByClassName("extra-info");
-    //     for(let card of allCards) 
-    //     if(card.parentNode != this.parentNode)
-    //         card.classList.add("hide");
-    // }
 }
